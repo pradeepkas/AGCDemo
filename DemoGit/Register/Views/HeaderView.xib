@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BarlowCondensed-ExtraLight.ttf">
+            <string>BarlowCondensed-ExtraLight</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="DemoGit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="530"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SIy-jQ-FYh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="530"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group301Copy" translatesAutoresizingMaskIntoConstraints="NO" id="79j-Yv-f8y">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="329"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="329" id="O8z-0i-zvN"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGn-bX-ath">
+                            <rect key="frame" x="36" y="362" width="342" height="19.5"/>
+                            <fontDescription key="fontDescription" name="BarlowCondensed-ExtraLight" family="Barlow Condensed" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="f3H-9K-NtB">
+                            <rect key="frame" x="41" y="401.5" width="332" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzu-bF-aP3">
+                                    <rect key="frame" x="0.0" y="0.5" width="123" height="39"/>
+                                    <color key="backgroundColor" red="0.92549019607843142" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="123" id="dLp-7o-qtT"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="BarlowCondensed-ExtraLight" family="Barlow Condensed" pointSize="32"/>
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="-8" maxX="-10" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="register " image="arrow"/>
+                                    <connections>
+                                        <action selector="btnRegisterClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="ZNr-KX-Ie4"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="me as a collector" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Lx-GP-bkd">
+                                    <rect key="frame" x="128" y="1" width="204" height="38.5"/>
+                                    <fontDescription key="fontDescription" name="BarlowCondensed-ExtraLight" family="Barlow Condensed" pointSize="32"/>
+                                    <color key="textColor" red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="vyH-hg-v6v"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opd-dy-5e0">
+                            <rect key="frame" x="120" y="481.5" width="174" height="29"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="BarlowCondensed-ExtraLight" family="Barlow Condensed" pointSize="24"/>
+                            <color key="tintColor" red="0.3411764706" green="0.4823529412" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="track my application" image="arrowBlue">
+                                <color key="titleColor" red="0.3411764705882353" green="0.4823529411764706" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnTrackClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="HLc-hL-AcM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="79j-Yv-f8y" firstAttribute="top" secondItem="SIy-jQ-FYh" secondAttribute="top" id="B0e-Jy-TEj"/>
+                        <constraint firstAttribute="trailing" secondItem="wGn-bX-ath" secondAttribute="trailing" constant="36" id="Gpw-XS-Kk7"/>
+                        <constraint firstItem="f3H-9K-NtB" firstAttribute="centerX" secondItem="SIy-jQ-FYh" secondAttribute="centerX" id="NPH-EN-utl"/>
+                        <constraint firstItem="Opd-dy-5e0" firstAttribute="top" secondItem="f3H-9K-NtB" secondAttribute="bottom" constant="40" id="QcM-Tk-J91"/>
+                        <constraint firstItem="Opd-dy-5e0" firstAttribute="centerX" secondItem="SIy-jQ-FYh" secondAttribute="centerX" id="aa5-ql-N8X"/>
+                        <constraint firstItem="f3H-9K-NtB" firstAttribute="top" secondItem="wGn-bX-ath" secondAttribute="bottom" constant="20" id="bgO-qt-ltw"/>
+                        <constraint firstAttribute="trailing" secondItem="79j-Yv-f8y" secondAttribute="trailing" id="d9O-bm-BAO"/>
+                        <constraint firstItem="wGn-bX-ath" firstAttribute="leading" secondItem="SIy-jQ-FYh" secondAttribute="leading" constant="36" id="dVn-Z2-fs1"/>
+                        <constraint firstItem="wGn-bX-ath" firstAttribute="top" secondItem="79j-Yv-f8y" secondAttribute="bottom" constant="33" id="fYV-XG-qON"/>
+                        <constraint firstItem="79j-Yv-f8y" firstAttribute="leading" secondItem="SIy-jQ-FYh" secondAttribute="leading" id="kqS-c9-QMk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="SIy-jQ-FYh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I8Y-uU-S5A"/>
+                <constraint firstItem="SIy-jQ-FYh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LTA-JH-mQl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="SIy-jQ-FYh" secondAttribute="bottom" id="Wbu-tZ-QRh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SIy-jQ-FYh" secondAttribute="trailing" id="vTK-Zf-rMe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="regiterButton" destination="Qzu-bF-aP3" id="ZcR-h9-Y7M"/>
+            </connections>
+            <point key="canvasLocation" x="111.59420289855073" y="152.00892857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow" width="20" height="18"/>
+        <image name="arrowBlue" width="12" height="11"/>
+        <image name="group301Copy" width="874" height="329"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
